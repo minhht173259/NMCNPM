@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.list-pro-item{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	line-height:1.5;
+	color:#333;
+	position:relative;
+	width:980px;
+	margin:auto;
+	height:280px;
+}
+.list-pro-top{
+	width:100%;
+	height:30px;
+	background:#FFFFFF;
+}

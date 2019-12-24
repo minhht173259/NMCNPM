@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#content-top{
+    width: 980px;
+    margin: auto;
+    height: 360px;
+    position: relative;
+    clear:both;
+    display: table;
+}
+
+#content-top .top-mid{
+    width: 980px;
+    height: auto;
+    float: left;
+    clear: both;
+    position: relative;
+}

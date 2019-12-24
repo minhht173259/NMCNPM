@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:1.5;
+	font-size: 12px;
+	color:#000;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style:none;
+}
+.clearfix{
+	clear: both;
+}
+/*=============================*/

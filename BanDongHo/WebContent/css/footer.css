@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/*==============================================*/
+/*Begin: footer*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#footer {
+	clear: both;
+	height: auto;
+	position: relative;
+	margin: 0px auto;
+	width: 980px;
+}
+
+#wrap-footer {
+	width: 980px;
+	height: 150px;
+	margin: 2px auto;
+	position: relative;
+	margin-bottom: 5px;
+	border-top: 1px solid white;
+}
+
+.footer-info {
+	clear: both;
+	margin: auto;
+	width: 98%;
+	padding: 2px;
+	line-height: 25px;
+	color: white;
+	border-top: 1px white solid;
+	
+}
+
+.footer-info p {
+	text-align: center;
+	padding-top: 0px;
+	margin: 30px 30px; 
+}
+
+.hieuung {
+	float: left;
+	margin: 2px 2px;
+	display: table;
+}
+
+.hieuung ul li {
+	float: left;
+}
+
+.hieuung img {
+	opacity: .5;
+	-webkit-transition: opacity .5s ease-out;
+	-moz-transition: opacity .5s ease-out;
+	width: 192px;
+	height: 150px;
+}
+
+.hieuung img:hover {
+	opacity: 1;
+	-webkit-transition: opacity .5s ease-out;
+	-moz-transition: opacity .5s ease-out;
+}
+/*End: footer*/

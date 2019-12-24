@@ -1,0 +1,23 @@
+.loading{
+width:980px;
+position:relative;
+}
+
+#slider {margin: 0 0 10px!important;}
+.slider{
+	width:980px;
+}
+.loading aside {opacity: 0;}
+aside {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;}
+aside h3 {float: left;}
+
+#container {
+	padding: 1px;margin: auto;
+	width: 980px;
+	height: 350px;
+}
+#main {margin:auto;overflow: hidden;width:980px;height:350px;}
+
+.cf:before, .cf:after {content:""; display:table;}
+.cf:after {clear:both;}
+.cf {zoom:1;}

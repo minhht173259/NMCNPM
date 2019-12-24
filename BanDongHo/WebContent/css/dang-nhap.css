@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.login{
+	position:relative;
+	padding:20px 10px;
+	margin:auto;
+        width: 980px;
+        color: white;
+        font-weight:bold;
+        line-height: 3;
+}
+.login-title{
+        width: 60%;
+        border-bottom: 1px white solid;
+        margin: auto;
+        font-size: 20px;
+        line-height: 2;
+        padding: 5px 0 5px 5px;
+        text-transform: uppercase;
+}
+
+.login-body{
+	margin:auto;
+	margin-top:20px;
+        padding-bottom: 50px;
+}
+.login-body a, a:active {
+	color:#767676;
+	text-decoration:none;
+}
+.login-body a:hover{
+	color:#0F3;
+	text-decoration:inherit;
+}
+
+.login-name, .login-pass{
+    display: block;
+    color:#bbbbbb;
+    font-size:12px;
+    float:left;
+    width:200px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+.tr-tab{
+    background: none repeat scroll 0 0 #1C1C1C;
+    border-bottom: 1px solid #161712;
+    display: block;
+    width: 600px;
+    margin: auto;
+    padding: 10px 0;
+}
+.input-text {
+    padding:10px 10px;
+    color: white;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+.buttom{
+    margin:0 10px 0px 0;
+    padding:4px 20px;
+    background:#CC0000;
+    border:0px;
+    position: relative;
+    color: white;
+    top:10px;
+    width:100px;
+    border-bottom: 1px double #660000;
+    border-top: 1px double #660000;
+    border-left:1px double #FF0033;
+    border-right:1px double #FF0033;
+}

@@ -1,0 +1,63 @@
+<html>
+<head>
+	<meta content="charset=utf-8">
+	<title>Slide-images</title>
+	<!-- Begin: CSS -->
+		<link rel="stylesheet" href="slide/css/demo.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="slide/css/flexslider.css" type="text/css" media="screen" />
+	<!-- End: CSS -->
+	
+	<!-- Begin: jquery -->
+		<script src="slide/js/jquery.min.js"></script>
+		<script defer src="slide/js/jquery.flexslider.js"></script>
+	  
+		<script type="text/javascript">
+			$(function(){
+			  SyntaxHighlighter.all();
+			});
+			$(window).load(function(){
+			  $('.flexslider').flexslider({
+				animation: "slide",
+				start: function(slider){
+				  $('div').removeClass('loading');
+				}
+			  });
+			});
+		</script>
+	<!-- End: jquery -->
+</head>
+	<body> 
+    	<!--Begin: slide anh trang chu-->
+		<div class="loading">
+		  <div id="container" class="cf">
+			<div id="main">
+			  <section class="slider">
+				<div class="flexslider">
+				  <ul class="slides">
+					<li>
+						<img src="./slide/img/slide_photo02.png" width="980px" height="350px" />
+					</li>
+					<li>
+						<img src="./slide/img/slide_photo02.png" width="980px" height="350px" />
+					</li>
+					<li>
+						<img src="./slide/img/slide_photo03.png" width="980px" height="350px"/>
+					</li>
+					<li>
+						<img src="./slide/img/slide_photo04.png" width="980px" height="350px"/>
+					</li>
+					<li>
+						<img src="./slide/img/slide_photo05.png" width="980px" height="350px"/>
+					</li>
+					<li>
+						<img src="./slide/img/slide_photo06.png" width="980px" height="350px"/>
+					</li>
+				  </ul>
+				</div>
+			  </section>
+			</div>
+		  </div>
+		</div>
+        <!--End: slide anh trang chu-->
+	</body>
+</html>

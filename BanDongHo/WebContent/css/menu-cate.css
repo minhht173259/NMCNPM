@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+/*===========================*/
+#menu-cate-pro{
+    clear: both;
+    position: relative;
+    float: left;
+	width:220px;
+	color:#0CCCC8;
+}
+div.menu-ul-20{
+	width: 500px;
+	height:300px;
+	border:1px solid #999;
+	display:none;
+	position:absolute;
+	left:219px;	
+	top:0px;
+}
+.menu-li-00{
+	background:#EEEEEE;
+}
+#menu-cate-pro .menu-li-00 .menua{
+	line-height:2;
+	clear:both;
+	margin:0;
+	padding:0;
+	background:#EEEEEE;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	text-align:center;
+	font-weight:bold;
+	height:28px;
+	border:1px solid #CCC;
+	background: url(../images/new-menu-bg.png) no-repeat right;
+	position:relative;
+}
+.menu-li-00:hover .menu-ul-10{
+	display:block;
+}
+
+#menu-cate-pro .menu-ul-10{
+	
+	position: absolute;
+	top: 30px;
+	z-index: 999!important;
+	width: 220px;
+	
+}
+
+
+#menu-cate-pro ul li a{ 
+	text-decoration:none;
+	color:#000;
+	display: block;
+	line-height: 40px;
+	padding-left: 15px;
+	text-transform: capitalize;
+	margin-right:0px;
+	font-weight:bold;
+}
+#menu-cate-pro a:hover{
+	color:#008080;
+}
+#menu-cate-pro li{
+	list-style:none;
+}
+#menu-cate-pro ul{
+	padding:0;
+	margin:0;
+}
+.menu-ul-10 .menu-ul-20{
+	display:none;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+.menu-ul-20{
+	position: absolute;
+	left: 219px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	top: 0px;
+	z-index: 999!important;
+	width: 200px;
+	
+}
+.menu-ul-20 .menu-ul-30{
+	display:none;
+}
+.menu-ul-30{
+	position: absolute;
+	left: 200px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	top: 0px;
+	z-index: 999!important;
+	width:180px;
+	background: #F5F5F5;
+}
+.menu-ul-40 {
+	padding-left:20px !important;
+	
+}
+.menu-li-04 a{
+	font-weight:normal !important;
+	font-size:12px !important;
+	line-height:20px !important;
+}
+.menu-li-04 a:hover{
+	text-decoration:underline !important;
+	color:#000 !important;
+}
+.menu-li-01{
+	position: relative;
+	margin:0px 0px;
+	border:1px solid #CCC;
+	background:#F5F5F5;
+}
+.menu-li-01 a{
+	background: url(../images/bg-li-alldear.png) no-repeat;
+	background-position:right;
+}
+.menu-li-01:hover{
+    background: yellow;
+	border-right:none;
+}
+.menu-li-01:hover .menu-ul-20{
+	display:block;
+	background:#F5F5F5;
+}
+.menu-li-02{
+	float: left;
+	width: 200px;
+	position:relative;
+}
+.menu-li-02:hover .menu-ul-30 {
+	display:block;
+}
+.menu-li-02:hover{
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+.menu-li-30{
+	
+	float: left;
+	width: 180px;
+	
+}
+.menu-li-03 a{
+	background-image:none;
+}

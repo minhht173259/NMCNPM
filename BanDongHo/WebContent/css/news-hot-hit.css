@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:1.5;
+	font-size: 12px;
+	color:#000;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style:none;
+}
+.clearfix{
+	clear: both;
+}
+/*=====================================*/
+#art-hot{
+    clear:both;
+    position:relative;
+	width:99%;
+	height:auto;
+	margin:auto;
+	margin:5px auto;
+	border:1px solid #999;
+	display:table;
+	border-radius:5px;
+	
+}
+#art-hot .hot-title{
+	background:#88F;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:5px;
+	text-align: center;
+	color: white;
+}
+#art-hot .hot-content{
+	display: table;
+}
+
+#art-hot .hot-item{
+	clear:both;
+	width:99%;
+	padding:5px 5px;
+	display: table;
+}
+#art-hot .hot-images{
+	float: left;
+	padding: 2px 2px 2px 2px;
+	border: solid 1px #CCC;
+	display:table;
+}
+#art-hot .hot-images img{
+    width: 60px;
+    height: 50px;
+}
+#art-hot .hot-info{
+	text-align: left;
+	padding: 0px 15px 0px 75px;
+}
+#art-hot .hot-info a{
+	text-decoration:none;
+	color:#333;
+	text-align:left;
+}
+#art-hot .hot-info a:hover{
+	text-decoration:underline;
+	color: #039;
+}
+

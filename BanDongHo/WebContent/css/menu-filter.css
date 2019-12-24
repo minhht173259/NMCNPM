@@ -1,0 +1,35 @@
+
+/*===================================*/
+.filter-top{
+    clear: both;
+    width: 980px;
+    border-radius: 5px;
+    padding: 5px 0px;
+    background: whiteSmoke;
+    border-radius: 5px;
+    margin:-10px auto;
+    height: 25px;
+}
+.filter-top ul{
+    margin: 0px;
+    padding: 0px;
+}
+.filter-top ul li{
+    list-style: none;
+    float:left;
+    padding: 0px 10px;
+    background: #F5F5F5;
+}
+
+.filter-top .li-01 , .li-02 , .li-03{
+    width: 210px;
+    border:1px solid #cdcdcd;
+    -moz-border-radius:4px; /* for Mozilla browsers */
+    -webkit-border-radius:4px; /* for webkit browsers (Chrome, Safari) */
+    -o-border-radius:4px;
+    -khtml-border:4px; 
+    border-radius:4px; /* for Opera and others */
+    padding:2px;
+    color:#666;
+    outline:none;
+}
